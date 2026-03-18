@@ -69,6 +69,6 @@ describe('Testes da classe Utilitarios', () => {
     });
 
     test('Deve inverter um array corretamente', () => {
-        expect(utilitarios.inverterArray([2, 1, 3])).toEqual([3, 2, 1]);
+        expect(utilitarios.inverterArray([1, 2, 3])).toEqual([3, 2, 1]);
     });
 });
